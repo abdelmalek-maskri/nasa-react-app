@@ -4,6 +4,10 @@
 
 The NASA APOD (Astronomy Picture of the Day) React App is a web application that displays the Astronomy Picture of the Day from NASA's API. It utilizes React for the frontend and provides a sidebar for additional information and a footer with navigation options.
 
+## Live Demo
+
+You can view the live application here: [my-nasa-apod.netlify.app](https://my-nasa-apod.netlify.app)
+
 ## Features
 
 - **Fetch Data from NASA API**: Retrieves the Astronomy Picture of the Day using NASA's API.
