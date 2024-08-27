@@ -8,7 +8,7 @@ import { useEffect, useState } from "react";
 function App() {
   const [data, setData] = useState(null);
   const [loading,  setLoading] = useState(false);
-  const NASA_KEY = 'L06M9vGQQC085FLFb4TCViIl1FmDOeS836bciByu';
+  const NASA_KEY = import.meta.env.VITE_NASA_API_KEY;
   const [showModal, setShowModal] = useState(false);
 
   function handleToggleModal(){
